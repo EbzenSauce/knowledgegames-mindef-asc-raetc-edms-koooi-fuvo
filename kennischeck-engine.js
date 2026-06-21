@@ -148,7 +148,7 @@ var CSS_TEXT = `
 /* ---------- Instructie-balk (tijdens bewerk-modus) ---------- */
 .kc-instruction {
   font-family: var(--kc-font-display);
-  font-size: 13px;
+  : 13px;
   font-weight: 600;
   color: var(--kc-accent);
   background: var(--kc-accent-soft);
@@ -165,7 +165,7 @@ var CSS_TEXT = `
   border-radius: var(--kc-radius);
   padding: clamp(22px, 6vw, 34px);
   font-family: var(--kc-font-display);
-  font-size: clamp(18px, 3vw, 23px);
+  : clamp(18px, 3vw, 23px);
   font-weight: 600;
   line-height: 1.4;
   min-height: 90px;
@@ -189,7 +189,7 @@ var CSS_TEXT = `
 .kc-answer-btn {
   font-family: var(--kc-font-body);
   font-weight: 600;
-  font-size: 15px;
+  : 15px;
   background: var(--kc-answer-bg);
   color: var(--kc-answer-text);
   border: none;
@@ -218,7 +218,7 @@ var CSS_TEXT = `
   background: var(--kc-answer-wrong-bg);
   color: var(--kc-answer-wrong-text);
 }
-.kc-answer-icon { font-size: 16px; line-height: 1; opacity: 0; transition: opacity 0.2s ease; }
+.kc-answer-icon { : 16px; line-height: 1; opacity: 0; transition: opacity 0.2s ease; }
 .kc-answer-btn--correct .kc-answer-icon,
 .kc-answer-btn--wrong .kc-answer-icon { opacity: 1; }
 
@@ -236,7 +236,7 @@ var CSS_TEXT = `
   color: var(--kc-accent);
 }
 .kc-score-value {
-  font-size: 22px;
+  : 22px;
   transition: color 0.15s ease;
 }
 .kc-score-value.kc-score-blink {
@@ -251,7 +251,7 @@ var CSS_TEXT = `
 .kc-btn {
   font-family: var(--kc-font-body);
   font-weight: 600;
-  font-size: 15px;
+  : 15px;
   border: none;
   border-radius: var(--kc-radius-sm);
   padding: 13px 22px;
@@ -289,9 +289,9 @@ var CSS_TEXT = `
 .kc-popup h3 {
   font-family: var(--kc-font-display);
   margin: 0 0 10px;
-  font-size: 19px;
+  : 19px;
 }
-.kc-popup p { color: var(--kc-text-soft); margin: 0 0 20px; font-size: 14px; }
+.kc-popup p { color: var(--kc-text-soft); margin: 0 0 20px; font-size: 16px; }
 .kc-popup-buttons, .kc-end-buttons {
   display: flex;
   gap: 10px;
