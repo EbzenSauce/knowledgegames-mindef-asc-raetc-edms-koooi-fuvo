@@ -100,7 +100,7 @@ var CSS_TEXT = `
 .kc-title {
   font-family: var(--kc-font-display);
   font-weight: 700;
-  font-size: clamp(20px, 3.4vw, 26px);
+  : clamp(20px, 3.4vw, 26px);
   margin: 0;
   letter-spacing: -0.01em;
 }
@@ -132,7 +132,7 @@ var CSS_TEXT = `
   padding: clamp(20px, 5vw, 36px);
   text-align: center;
 }
-.kc-intro p { color: var(--kc-text-soft); margin: 0 0 20px; font-size: 15px; }
+.kc-intro p { color: var(--kc-text-soft); margin: 0 0 20px; font-size: 16px; }
 
 /* ---------- Progress ---------- */
 .kc-progress {
