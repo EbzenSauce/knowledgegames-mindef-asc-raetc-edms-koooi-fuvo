@@ -321,7 +321,7 @@ var CSS_TEXT = `
 .kc-end p { color: var(--kc-text-soft); margin: 0 0 22px; }
 .kc-end-pass-text {
   color: var(--kc-text-soft);
-  font-size: 14px;
+  font-size: 16px;
   margin: -8px 0 18px;
 }
 .kc-end-replay-link {
